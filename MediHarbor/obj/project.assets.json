@@ -2246,6 +2246,9 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "particles.js/2.0.0": {
+        "type": "package"
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "type": "package",
         "dependencies": {
@@ -6947,6 +6950,19 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "particles.js/2.0.0": {
+      "sha512": "x+YtTVgBPojfNqQZRrtL9r3B8Fp0YaJ1TB7Nft5kKbAsygtRe3IwQx5C42mZxuesr6WkLSuCHvaOif6mmcMKsQ==",
+      "type": "package",
+      "path": "particles.js/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/particles.js",
+        "content/Scripts/particles.min.js",
+        "particles.js.2.0.0.nupkg.sha512",
+        "particles.js.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -8354,7 +8370,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "particles.js >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -8434,6 +8451,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "particles.js": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4s5JWV9MJsg=",
+  "dgSpecHash": "u2z673t8pDA=",
   "success": true,
   "projectFilePath": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\MediHarbor.csproj",
   "expectedPackageFiles": [
@@ -136,6 +136,7 @@
     "C:\\Users\\Wrya\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Wrya\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Wrya\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Wrya\\.nuget\\packages\\particles.js\\2.0.0\\particles.js.2.0.0.nupkg.sha512",
     "C:\\Users\\Wrya\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Wrya\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\Wrya\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

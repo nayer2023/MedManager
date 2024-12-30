@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
+      "PackagePath": "staticwebassets\\js\\particles.js"
+    },
+    {
       "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

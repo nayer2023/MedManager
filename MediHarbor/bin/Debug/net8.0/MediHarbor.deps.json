@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
+          "particles.js": "2.0.0"
         },
         "runtime": {
           "MediHarbor.dll": {}
@@ -1763,6 +1764,7 @@
           }
         }
       },
+      "particles.js/2.0.0": {},
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -3101,6 +3103,13 @@
       "sha512": "sha512-v/GGlIj2dd7svplFmASWEueu62veKW0MrMtBaZ7QG8aJTSGv2yE+pgUGhXRcQ4nxNOEq/wLBrz1vkth/1SND7A==",
       "path": "nuget.versioning/6.11.0",
       "hashPath": "nuget.versioning.6.11.0.nupkg.sha512"
+    },
+    "particles.js/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+YtTVgBPojfNqQZRrtL9r3B8Fp0YaJ1TB7Nft5kKbAsygtRe3IwQx5C42mZxuesr6WkLSuCHvaOif6mmcMKsQ==",
+      "path": "particles.js/2.0.0",
+      "hashPath": "particles.js.2.0.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",

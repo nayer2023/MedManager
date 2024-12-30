@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UB57JV98RBrIJDTDCBIIWYr92wwq/h3VCiqm4/N9RU4=",
+  "Hash": "m3+A4SC1ODEpr5fGCWyWreDBcFfKT03cBekLYTS6R+Q=",
   "Source": "MediHarbor",
   "BasePath": "_content/MediHarbor",
   "Mode": "Default",
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "js/particles#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "suz35tawr8",
+      "Integrity": "RDFxgJOuq7tom+3+IS/2734JQLjQT7i89KbENDQf5OA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\particles.js"
     },
     {
       "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\site.js",
@@ -4961,6 +4982,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "js/particles.js",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RDFxgJOuq7tom+3+IS/2734JQLjQT7i89KbENDQf5OA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 18:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RDFxgJOuq7tom+3+IS/2734JQLjQT7i89KbENDQf5OA="
+        }
+      ]
+    },
+    {
+      "Route": "js/particles.suz35tawr8.js",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RDFxgJOuq7tom+3+IS/2734JQLjQT7i89KbENDQf5OA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 18:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "suz35tawr8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/particles.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RDFxgJOuq7tom+3+IS/2734JQLjQT7i89KbENDQf5OA="
         }
       ]
     },

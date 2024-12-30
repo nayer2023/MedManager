@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediHarbor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c88aced4180e54f0543e6d0c8f115a5eec95e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediHarbor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediHarbor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
