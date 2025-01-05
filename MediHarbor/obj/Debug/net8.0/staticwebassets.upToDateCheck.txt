@@ -1,5 +1,13 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\AIM.jpg
+wwwroot\img\mental.jpg
+wwwroot\img\MHA.jpg
+wwwroot\img\Nerv.jpg
+wwwroot\img\pill.jpg
+wwwroot\img\Rob1.jpg
+wwwroot\img\robot.jpg
+wwwroot\img\Vac.jpg
 wwwroot\js\particles.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

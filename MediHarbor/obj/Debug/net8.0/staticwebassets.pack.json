@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\AIM.jpg",
+      "PackagePath": "staticwebassets\\img\\AIM.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\MHA.jpg",
+      "PackagePath": "staticwebassets\\img\\MHA.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Nerv.jpg",
+      "PackagePath": "staticwebassets\\img\\Nerv.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Rob1.jpg",
+      "PackagePath": "staticwebassets\\img\\Rob1.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Vac.jpg",
+      "PackagePath": "staticwebassets\\img\\Vac.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\mental.jpg",
+      "PackagePath": "staticwebassets\\img\\mental.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\pill.jpg",
+      "PackagePath": "staticwebassets\\img\\pill.jpg"
+    },
+    {
+      "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\robot.jpg",
+      "PackagePath": "staticwebassets\\img\\robot.jpg"
+    },
+    {
       "Id": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
       "PackagePath": "staticwebassets\\js\\particles.js"
     },

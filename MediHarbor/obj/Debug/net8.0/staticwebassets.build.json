@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m3+A4SC1ODEpr5fGCWyWreDBcFfKT03cBekLYTS6R+Q=",
+  "Hash": "JowL1wglHOqtAvnhRMLp6ZfkySXtoBd6vS7kIVC8G/g=",
   "Source": "MediHarbor",
   "BasePath": "_content/MediHarbor",
   "Mode": "Default",
@@ -1361,6 +1361,174 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\AIM.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/AIM#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y22gn572w9",
+      "Integrity": "dvYHUJqkDYChZVo4dlyKKT2KaCajYjTV73m/FHpU1uQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\AIM.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\mental.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/mental#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d59zqy8r3a",
+      "Integrity": "74RODVKL/02qp/zb+azPixCGwz5qA9EVPcvCWx7561g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mental.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\MHA.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/MHA#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9xqopeps3k",
+      "Integrity": "Td8xw/MCLwNzHnh/x5aYGINs8f8leHN2CSZNMc9EW5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\MHA.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Nerv.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/Nerv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m21lee8ewm",
+      "Integrity": "rr7y43Jlzh5/kKdDGRPwSqnDjQHplO2IhMX9YeY5K5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Nerv.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\pill.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/pill#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbo7pxvkh8",
+      "Integrity": "Gbw5/PKM74O89Nl9W/HO+iFNISLteEJvNq5LBw7kwwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pill.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Rob1.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/Rob1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wut4qnpbrl",
+      "Integrity": "2CmJjoC6+3m+RZGjFR6xhI4/s2TkZ/pIKDEVenb2EWQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Rob1.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\robot.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/robot#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hgndwhqp82",
+      "Integrity": "AZz+IoQSnpkyoAApi+A0rfaYEj9/Scf+o/fZgkiLTbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\robot.jpg"
+    },
+    {
+      "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Vac.jpg",
+      "SourceId": "MediHarbor",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\",
+      "BasePath": "_content/MediHarbor",
+      "RelativePath": "img/Vac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ap5pe4oe52",
+      "Integrity": "4riu7VA0866m6cstHsyAEyl81v46fhKN/Td5joD9tbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Vac.jpg"
+    },
+    {
       "Identity": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
       "SourceId": "MediHarbor",
       "SourceType": "Discovered",
@@ -1417,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t1epb7ijzj",
-      "Integrity": "n6X8QCW4fs2v1VEBXauBdQ47XB/hLasVqH7t7ctPRzo=",
+      "Fingerprint": "wby9563btc",
+      "Integrity": "9PxBV65P/2mgr0zRQ5OYeUstD98Kmp3le5lex58XOx0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -4986,6 +5154,662 @@
       ]
     },
     {
+      "Route": "img/AIM.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\AIM.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvYHUJqkDYChZVo4dlyKKT2KaCajYjTV73m/FHpU1uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:46:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvYHUJqkDYChZVo4dlyKKT2KaCajYjTV73m/FHpU1uQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/AIM.y22gn572w9.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\AIM.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dvYHUJqkDYChZVo4dlyKKT2KaCajYjTV73m/FHpU1uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:46:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y22gn572w9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/AIM.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dvYHUJqkDYChZVo4dlyKKT2KaCajYjTV73m/FHpU1uQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/mental.d59zqy8r3a.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\mental.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"74RODVKL/02qp/zb+azPixCGwz5qA9EVPcvCWx7561g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d59zqy8r3a"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mental.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-74RODVKL/02qp/zb+azPixCGwz5qA9EVPcvCWx7561g="
+        }
+      ]
+    },
+    {
+      "Route": "img/mental.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\mental.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"74RODVKL/02qp/zb+azPixCGwz5qA9EVPcvCWx7561g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-74RODVKL/02qp/zb+azPixCGwz5qA9EVPcvCWx7561g="
+        }
+      ]
+    },
+    {
+      "Route": "img/MHA.9xqopeps3k.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\MHA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "554937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Td8xw/MCLwNzHnh/x5aYGINs8f8leHN2CSZNMc9EW5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9xqopeps3k"
+        },
+        {
+          "Name": "label",
+          "Value": "img/MHA.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Td8xw/MCLwNzHnh/x5aYGINs8f8leHN2CSZNMc9EW5g="
+        }
+      ]
+    },
+    {
+      "Route": "img/MHA.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\MHA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "554937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Td8xw/MCLwNzHnh/x5aYGINs8f8leHN2CSZNMc9EW5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:47:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Td8xw/MCLwNzHnh/x5aYGINs8f8leHN2CSZNMc9EW5g="
+        }
+      ]
+    },
+    {
+      "Route": "img/Nerv.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Nerv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1659865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rr7y43Jlzh5/kKdDGRPwSqnDjQHplO2IhMX9YeY5K5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rr7y43Jlzh5/kKdDGRPwSqnDjQHplO2IhMX9YeY5K5E="
+        }
+      ]
+    },
+    {
+      "Route": "img/Nerv.m21lee8ewm.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Nerv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1659865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rr7y43Jlzh5/kKdDGRPwSqnDjQHplO2IhMX9YeY5K5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m21lee8ewm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Nerv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rr7y43Jlzh5/kKdDGRPwSqnDjQHplO2IhMX9YeY5K5E="
+        }
+      ]
+    },
+    {
+      "Route": "img/pill.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\pill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1311099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gbw5/PKM74O89Nl9W/HO+iFNISLteEJvNq5LBw7kwwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:04:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gbw5/PKM74O89Nl9W/HO+iFNISLteEJvNq5LBw7kwwk="
+        }
+      ]
+    },
+    {
+      "Route": "img/pill.rbo7pxvkh8.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\pill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1311099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gbw5/PKM74O89Nl9W/HO+iFNISLteEJvNq5LBw7kwwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:04:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbo7pxvkh8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pill.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gbw5/PKM74O89Nl9W/HO+iFNISLteEJvNq5LBw7kwwk="
+        }
+      ]
+    },
+    {
+      "Route": "img/Rob1.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Rob1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CmJjoC6+3m+RZGjFR6xhI4/s2TkZ/pIKDEVenb2EWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CmJjoC6+3m+RZGjFR6xhI4/s2TkZ/pIKDEVenb2EWQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/Rob1.wut4qnpbrl.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Rob1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CmJjoC6+3m+RZGjFR6xhI4/s2TkZ/pIKDEVenb2EWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wut4qnpbrl"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Rob1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CmJjoC6+3m+RZGjFR6xhI4/s2TkZ/pIKDEVenb2EWQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/robot.hgndwhqp82.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\robot.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZz+IoQSnpkyoAApi+A0rfaYEj9/Scf+o/fZgkiLTbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:03:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgndwhqp82"
+        },
+        {
+          "Name": "label",
+          "Value": "img/robot.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZz+IoQSnpkyoAApi+A0rfaYEj9/Scf+o/fZgkiLTbw="
+        }
+      ]
+    },
+    {
+      "Route": "img/robot.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\robot.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZz+IoQSnpkyoAApi+A0rfaYEj9/Scf+o/fZgkiLTbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:03:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZz+IoQSnpkyoAApi+A0rfaYEj9/Scf+o/fZgkiLTbw="
+        }
+      ]
+    },
+    {
+      "Route": "img/Vac.ap5pe4oe52.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Vac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "898423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4riu7VA0866m6cstHsyAEyl81v46fhKN/Td5joD9tbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:00:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ap5pe4oe52"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Vac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4riu7VA0866m6cstHsyAEyl81v46fhKN/Td5joD9tbc="
+        }
+      ]
+    },
+    {
+      "Route": "img/Vac.jpg",
+      "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\img\\Vac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "898423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4riu7VA0866m6cstHsyAEyl81v46fhKN/Td5joD9tbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 11:00:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4riu7VA0866m6cstHsyAEyl81v46fhKN/Td5joD9tbc="
+        }
+      ]
+    },
+    {
       "Route": "js/particles.js",
       "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\js\\particles.js",
       "Selectors": [],
@@ -5160,7 +5984,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "305913"
+          "Value": "305917"
         },
         {
           "Name": "Content-Type",
@@ -5168,11 +5992,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n6X8QCW4fs2v1VEBXauBdQ47XB/hLasVqH7t7ctPRzo=\""
+          "Value": "\"9PxBV65P/2mgr0zRQ5OYeUstD98Kmp3le5lex58XOx0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 19:38:12 GMT"
+          "Value": "Mon, 30 Dec 2024 19:55:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5182,7 +6006,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n6X8QCW4fs2v1VEBXauBdQ47XB/hLasVqH7t7ctPRzo="
+          "Value": "sha256-9PxBV65P/2mgr0zRQ5OYeUstD98Kmp3le5lex58XOx0="
         }
       ]
     },
@@ -5761,7 +6585,7 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.t1epb7ijzj.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.wby9563btc.css",
       "AssetFile": "H:\\5. NET\\Projects\\.NET\\MediHarbor\\MediHarbor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5771,7 +6595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "305913"
+          "Value": "305917"
         },
         {
           "Name": "Content-Type",
@@ -5779,11 +6603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n6X8QCW4fs2v1VEBXauBdQ47XB/hLasVqH7t7ctPRzo=\""
+          "Value": "\"9PxBV65P/2mgr0zRQ5OYeUstD98Kmp3le5lex58XOx0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 19:38:12 GMT"
+          "Value": "Mon, 30 Dec 2024 19:55:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5793,7 +6617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t1epb7ijzj"
+          "Value": "wby9563btc"
         },
         {
           "Name": "label",
@@ -5801,7 +6625,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n6X8QCW4fs2v1VEBXauBdQ47XB/hLasVqH7t7ctPRzo="
+          "Value": "sha256-9PxBV65P/2mgr0zRQ5OYeUstD98Kmp3le5lex58XOx0="
         }
       ]
     },

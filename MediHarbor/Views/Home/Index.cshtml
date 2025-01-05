@@ -24,6 +24,19 @@
         padding: 50px 20px;
         text-align: center;
     }
+
+    /* Ensure all images in the carousel have the same size */
+    .carousel-item img {
+        width: 100%; /* Makes the images fill the column width */
+        height: 200px; /* Fixes the height of the images */
+        object-fit: cover; /* Ensures the images cover the area without distortion */
+        border-radius: 5px;
+    }
+
+    /* Optional: Adjust the spacing between the cards in the carousel */
+    .carousel-inner .row {
+        justify-content: center; /* Centers the content */
+    }
 </style>
 
 <div id="particles-js"></div>
@@ -33,12 +46,142 @@
     <p>Connecting communities with compassionate care and cutting-edge healthcare services.</p>
 </div>
 
+<div class="non-particles-section text-center py-5">
+    <h2 class="text-primary">What can we do for you today?</h2>
+    <div class="row mt-4 justify-content-center">
+        <!-- Scan and Test Section -->
+        <div class="col-md-5">
+            <a asp-controller="Manage" asp-action="SearchForTest" class="text-decoration-none">
+                <div class="card border-primary shadow-sm p-2">
+                    <div class="card-body">
+                        <h4 class="text-primary">Scan and Test</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-<div class="non-particles-section">
-    <h2>Additional Content</h2>
-    <p>This section does not have the particles background.</p>
-    <p>You can add more content here.</p>
+        <!-- Make an Appointment Section -->
+        <div class="col-md-5">
+            <a asp-controller="Doctor" asp-action="FindAppointment" class="text-decoration-none">
+                <div class="card border-primary shadow-sm p-2">
+                    <div class="card-body">
+                        <h4 class="text-primary">Make an Appointment</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
+
+<!-- Articles Section with Carousel -->
+<div class="container mt-5 p-4">
+    <h2 class="text-center text-primary mb-4">Explore Our Articles</h2>
+
+    <div id="articleCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row text-center">
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/Vac.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Vaccination for Flu</a>
+                            </h5>
+                            <p class="text-justify text-primary">Exploring the benefits, effectiveness, and importance of flu vaccination for public health protection.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/Nerv.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Neuroscience</a>
+                            </h5>
+                            <p class="text-justify text-primary">Exploring brain functions, neural pathways, and advances in neuroscience research and treatment.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/mental.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Mental Health</a>
+                            </h5>
+                            <p class="text-justify text-primary">Discussing mental health challenges, treatments, and societal impact on well-being and care.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/pill.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Pills Price</a>
+                            </h5>
+                            <p class="text-justify text-primary">Examining factors influencing pill pricing, affordability, and the economics of pharmaceutical drugs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/robot.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Robots in Medicine</a>
+                            </h5>
+                            <p class="text-justify text-primary">Discussing the role of robotics in the medical field and how it is revolutionizing surgeries and diagnostics.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/AIM.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">AI in Neuroscience</a>
+                            </h5>
+                            <p class="text-justify text-primary">Exploring how artificial intelligence is revolutionizing neuroscience research and brain analysis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/Rob1.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Robotic Surgery</a>
+                            </h5>
+                            <p class="text-justify text-primary">Examining the integration of robotic surgery in healthcare and its impact on patient outcomes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-3">
+                        <div class="p-3 border rounded shadow-sm">
+                            <img src="~/img/MHA.jpg" asp-append-version="true" class="img-fluid rounded">
+                            <h5 class="mt-2">
+                                <a href="#" class="text-primary text-decoration-none">Mental Health Access</a>
+                            </h5>
+                            <p class="text-justify text-primary">Discussing the challenges of accessing affordable mental health care and potential solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customizing Carousel Controls with Dark Arrows -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#articleCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon custom-arrow"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#articleCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon custom-arrow"></span>
+        </button>
+    </div>
+</div>
+
+<!-- Custom CSS for Dark Carousel Arrows -->
+<style>
+    .custom-arrow {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+        border-radius: 50%;
+        padding: 15px;
+    }
+</style>
 
 @section Scripts {
     <script src="~/js/particles.js"></script>
