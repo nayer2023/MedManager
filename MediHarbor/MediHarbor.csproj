@@ -19,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Doctor\" />
+    <Folder Include="Views\Scan\" />
+    <Folder Include="Views\Patient\" />
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 

@@ -1,0 +1,52 @@
+﻿@model MediHarbor.Models.Scan
+
+@{
+    ViewData["Title"] = "Create Scan";
+}
+
+<h1>Create New Scan</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="ScanType" class="control-label"></label>
+        <input asp-for="ScanType" class="form-control" />
+        <span asp-validation-for="ScanType" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BodyPart" class="control-label"></label>
+        <input asp-for="BodyPart" class="form-control" />
+        <span asp-validation-for="BodyPart" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Location" class="control-label"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AvailableDate" class="control-label"></label>
+        <input asp-for="AvailableDate" class="form-control" type="date" required
+               min="@DateTime.Now.ToString("yyyy-MM-dd")" max="2099-12-31" />
+        <span asp-validation-for="AvailableDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" type="number" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Duration" class="control-label"></label>
+        <input asp-for="Duration" class="form-control" type="number" />
+        <span asp-validation-for="Duration" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Create</button>
+</form>
+
+<div class="d-flex justify-content-end mt-3">
+    <a href="@Url.Action("Index", "Manager")" class="btn btn-secondary">Back to List</a>
+</div>
