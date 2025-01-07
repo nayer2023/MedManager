@@ -40,13 +40,13 @@
                             Actions
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton_@scan.ScanID">
-                            <!-- Edit Option -->
+                            
                             <li>
                                 <a class="dropdown-item" href="@Url.Action("Edit", "Manager", new { id = scan.ScanID })">
                                     Edit
                                 </a>
                             </li>
-                            <!-- Delete Option -->
+                            
                             <li>
                                 <form asp-action="Delete" asp-route-id="@scan.ScanID" method="post" style="display:inline;"
                                       onsubmit="return confirm('Are you sure you want to delete this scan?');">

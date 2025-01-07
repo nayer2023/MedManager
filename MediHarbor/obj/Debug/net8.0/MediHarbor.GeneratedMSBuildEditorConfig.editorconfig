@@ -188,6 +188,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/CreatePrescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENyZWF0ZVByZXNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/EditPrescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEVkaXRQcmVzY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/PatientQueue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRRdWV1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/RemovePrescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFJlbW92ZVByZXNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -214,6 +238,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Manager/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/Appointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBcHBvaW50bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/AvailableAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBdmFpbGFibGVBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/CreateAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGVBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/DeleteAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZWxldGVBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxNeVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/OurDoctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxPdXJEb2N0b3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/Prescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQcmVzY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Patient/ScanTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxTY2FuVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Shared/Error.cshtml]
