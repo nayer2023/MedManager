@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MediHarbor</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        .sidebar {
+            width: 250px;
+            background-color: #1e3a5f;
+            color: white;
+            padding: 15px;
+        }
+
+            .sidebar a {
+                color: white;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover {
+                    background-color: #4a6fa5;
+                }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MediHarbor</a>
+    </header>
+    <div class="d-flex">
+        <div class="sidebar">
+            <h4>Manager Menu</h4>
+            <a href="/Manager/Index">Dashboard</a>
+        </div>
+        <main class="flex-fill p-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

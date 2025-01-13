@@ -1,0 +1,104 @@
+﻿@model MediHarbor.ViewModels.TestScanViewModel
+@{
+    ViewData["Title"] = "Search Scans and Tests";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Search for Available Scans and Tests</h2>
+
+    <form method="get" asp-action="Search" class="p-4 border rounded bg-light">
+        <div class="row g-3 mb-3">
+            <div class="col-md-4">
+                <label asp-for="SearchTerm" class="form-label"></label>
+                <input asp-for="SearchTerm" class="form-control" placeholder="Enter keyword..." />
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="Location" class="form-label"></label>
+                <input asp-for="Location" class="form-control" placeholder="Enter location..." />
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="AvailableFrom" class="form-label"></label>
+                <input asp-for="AvailableFrom" class="form-control" type="date" />
+            </div>
+
+            <div class="col-md-4">
+                <label asp-for="AvailableTo" class="form-label"></label>
+                <input asp-for="AvailableTo" class="form-control" type="date" />
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Search</button>
+    </form>
+
+    <hr class="my-5" />
+
+    <!-- Display Results Section -->
+    @if (Model.Scans.Any() || Model.MedTests.Any())
+    {
+        <h3 class="text-center mt-5">Search Results</h3>
+
+        <div class="row mt-4">
+            <!-- Scans Section -->
+            <div class="col-lg-6">
+                <h4>Available Scans</h4>
+                <table class="table table-bordered table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Scan Type</th>
+                            <th>Body Part</th>
+                            <th>Location</th>
+                            <th>Available Date</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var scan in Model.Scans)
+                        {
+                            <tr>
+                                <td>@scan.ScanType</td>
+                                <td>@scan.BodyPart</td>
+                                <td>@scan.Location</td>
+                                <td>@scan.AvailableDate.ToShortDateString()</td>
+                                <td>@scan.Price?.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tests Section -->
+            <div class="col-lg-6">
+                <h4>Available Tests</h4>
+                <table class="table table-bordered table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Test Name</th>
+                            <th>Test Category</th>
+                            <th>Location</th>
+                            <th>Available Date</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var test in Model.MedTests)
+                        {
+                            <tr>
+                                <td>@test.TestName</td>
+                                <td>@test.TestCategory</td>
+                                <td>@test.Location</td>
+                                <td>@test.AvailableDate.ToShortDateString()</td>
+                                <td>@test.Price?.ToString("C")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-center mt-5 text-muted">No results found. Please try another search.</p>
+    }
+</div>

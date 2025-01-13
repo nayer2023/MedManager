@@ -2,6 +2,8 @@ using MediHarbor.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MediHarbor.Models;
+using MediHarbor.Constants;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +14,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
 
 // Register DatabaseSeeder as a service
 builder.Services.AddScoped<DatabaseSeeder>();
@@ -32,6 +36,13 @@ else
     app.UseHsts();
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    RoleSeeder.SeedRolesAsync(services).Wait();
+    UserSeeder.SeedUsersAsync(services).Wait();
+}
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -45,6 +56,7 @@ using (var scope = app.Services.CreateScope())
     var seeder = scope.ServiceProvider.GetRequiredService<DatabaseSeeder>();
     await seeder.SeedDataAsync();  // Make sure to call async with `await`
 }
+
 
 app.MapControllerRoute(
     name: "default",

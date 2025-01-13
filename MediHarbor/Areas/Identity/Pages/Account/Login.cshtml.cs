@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using MediHarbor.Constants;
 
 namespace MediHarbor.Areas.Identity.Pages.Account
 {
@@ -115,6 +116,32 @@ namespace MediHarbor.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+
+                    // Get the logged-in user
+                    var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email);
+                    if (user != null)
+                    {
+                        // Check the roles assigned to the user
+                        var roles = await _signInManager.UserManager.GetRolesAsync(user);
+
+                        if (roles.Contains(Roles.Doctor))
+                        {
+                            // Redirect to the Doctor's index view
+                            return RedirectToAction("Index", "Doctor");
+                        }
+                        else if (roles.Contains(Roles.Manager))
+                        {
+                            // Redirect to the Manager's dashboard
+                            return RedirectToAction("Index", "Manager");
+                        }
+                        else if (roles.Contains(Roles.Patient))
+                        {
+                            // Redirect to the Patient's profile page
+                            return RedirectToAction("Index", "Patient");
+                        }
+                    }
+
+                    // If no matching role found, redirect to the original return URL
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

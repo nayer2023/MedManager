@@ -1,10 +1,13 @@
 ﻿using MediHarbor.Data;
 using MediHarbor.Models;
+using MediHarbor.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
 namespace MediHarbor.Controllers
 {
+    [Authorize(Roles = "Manager")] // Restrict access only to Managers
     public class ManagerController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -17,8 +20,15 @@ namespace MediHarbor.Controllers
         // GET: Manager/Index
         public IActionResult Index()
         {
-            var scans = _context.Scans.ToList();
-            return View(scans);
+            var viewModel = new ManagerDashboardViewModel
+            {
+                Scans = _context.Scans.ToList(),
+                Doctors = _context.Doctors.ToList(),
+                Appointments = _context.Appointments.ToList(),
+                Texts = _context.TextItems.ToList()
+            };
+
+            return View(viewModel);
         }
 
         // GET: Manager/Create
@@ -36,9 +46,9 @@ namespace MediHarbor.Controllers
             {
                 _context.Add(scan);
                 _context.SaveChanges();
-                return RedirectToAction(nameof(Index));  
+                return RedirectToAction(nameof(Index));
             }
-            return View(scan);  
+            return View(scan);
         }
     }
 }

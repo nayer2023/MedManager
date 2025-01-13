@@ -12,6 +12,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using MediHarbor.Constants;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -99,6 +100,7 @@ namespace MediHarbor.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            public bool IsPatient { get; set; } = true;
         }
 
 
@@ -122,6 +124,15 @@ namespace MediHarbor.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+                    _logger.LogInformation("User created a new account with password.");
+                    if (Input.IsPatient)
+                    {
+                        await _userManager.AddToRoleAsync(user, Roles.Patient);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, Roles.Doctor);
+                    }
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);

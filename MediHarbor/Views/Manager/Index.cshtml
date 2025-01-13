@@ -1,60 +1,117 @@
-﻿@model IEnumerable<MediHarbor.Models.Scan>
+﻿@model MediHarbor.ViewModels.ManagerDashboardViewModel
 
-@{
-    ViewData["Title"] = "Scans";
-}
+<h2>Manager Dashboard</h2>
 
-<h1>Available Scans</h1>
-
-<a href="@Url.Action("Create", "Manager")" class="btn btn-success" style="background-color: #1e3a5f;">Create New Scan</a>
-
-<table class="table">
+<!-- Scans Table -->
+<h3>Scans</h3>
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
-            <th>Type of the Scan</th>
+            <th>Scan Type</th>
             <th>Body Part</th>
             <th>Location</th>
             <th>Available Date</th>
-            <th>Price</th>
-            <th>Duration</th>
-            <th>Description</th>
-            <th>Actions</th> <!-- Added for the Dropdown -->
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var scan in Model)
+        @foreach (var scan in Model.Scans)
         {
             <tr>
                 <td>@scan.ScanType</td>
                 <td>@scan.BodyPart</td>
                 <td>@scan.Location</td>
-                <td>@scan.AvailableDate.ToString("yyyy-MM-dd")</td>
-                <td>@scan.Price</td>
-                <td>@scan.Duration</td>
-                <td>@scan.Description</td>
+                <td>@scan.AvailableDate.ToShortDateString()</td>
                 <td>
-                    <!-- Bootstrap Dropdown for Actions -->
-                    <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton_@scan.ScanID"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                            Actions
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton_@scan.ScanID">
-                            
-                            <li>
-                                <a class="dropdown-item" href="@Url.Action("Edit", "Manager", new { id = scan.ScanID })">
-                                    Edit
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <form asp-action="Delete" asp-route-id="@scan.ScanID" method="post" style="display:inline;"
-                                      onsubmit="return confirm('Are you sure you want to delete this scan?');">
-                                    <button type="submit" class="dropdown-item text-danger">Delete</button>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@scan.ScanID">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@scan.ScanID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Doctors Table -->
+<h3>Doctors</h3>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Specialization</th>
+            <th>Phone Number</th>
+            <th>Location</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model.Doctors)
+        {
+            <tr>
+                <td>@doctor.FullName</td>
+                <td>@doctor.Specialization</td>
+                <td>@doctor.PhoneNumber</td>
+                <td>@doctor.Location</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@doctor.DoctorID">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@doctor.DoctorID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Appointments Table -->
+<h3>Appointments</h3>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Patient Name</th>
+            <th>Doctor</th>
+            <th>Appointment Date & Time</th>
+            <th>Reason for Visit</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model.Appointments)
+        {
+            <tr>
+                <td>@appointment.Patient.FullName</td>
+                <td>@appointment.Doctor.FullName</td>
+                <td>@appointment.AppointmentDate.ToShortDateString()</td>
+                <td>@appointment.Reason</td>
+                <td>@appointment.Status</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@appointment.AppointmentID">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@appointment.AppointmentID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Texts Table -->
+<h3>Texts</h3>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Content</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var text in Model.Texts)
+        {
+            <tr>
+                <td>@text.Category</td>
+                <td>@text.Content</td>
+                <td>@text.DateCreated.ToShortDateString()</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@text.TextID">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@text.TextID">Delete</a>
                 </td>
             </tr>
         }

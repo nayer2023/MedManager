@@ -16,8 +16,9 @@ namespace MediHarbor.Data
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Scan> Scans { get; set; }
         public DbSet<MedTest> MedTests { get; set; }
+        public DbSet<TextItem> TextItems { get; set; }
 
-       
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

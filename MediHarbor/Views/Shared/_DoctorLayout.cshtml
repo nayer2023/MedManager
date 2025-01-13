@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MediHarbor</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MediHarbor.styles.css" asp-append-version="true" />
+    <style>
+        /* Sidebar inside body only */
+        .content-wrapper {
+            display: flex;
+            min-height: 80vh; 
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #1e3a5f;
+            padding: 20px;
+            color: white;
+        }
+
+            .sidebar a {
+                display: block;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover {
+                    background-color: #4a6fa5;
+                }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #1e3a5f;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">MediHarbor</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section with Sidebar -->
+    <div class="content-wrapper">
+        <!-- Sidebar for Navigation -->
+        <div class="sidebar">
+            <h5>Doctor's Menu</h5>
+            <a asp-controller="Patients" asp-action="Index">Patients</a>
+            <a asp-controller="Appointments" asp-action="Index">Appointments</a>
+            <a asp-controller="Prescriptions" asp-action="Index">Prescriptions</a>
+            <a asp-controller="Home" asp-action="Index">Dashboard</a>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <footer class="py-4 border-top text-light" style="background-color: #1e3a5f;">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <p class="mb-3 mb-md-0">© @DateTime.Now.Year MediHarbor. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
