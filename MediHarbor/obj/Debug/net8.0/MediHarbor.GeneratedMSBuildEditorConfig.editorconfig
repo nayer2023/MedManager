@@ -188,6 +188,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Appointment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Appointment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/AINeuro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQUlOZXVyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/MentalAccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcTWVudGFsQWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/MentalHealth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcTWVudGFsSGVhbHRoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/Neuroscience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcTmV1cm9zY2llbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/Pills.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcUGlsbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/RobaticSurgery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcUm9iYXRpY1N1cmdlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/RobatsInMed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcUm9iYXRzSW5NZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Articles/Vaccination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcVmFjY2luYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Doctor/Appointment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFwcG9pbnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -302,6 +342,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/YouTube/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW91VHViZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [H:/5. NET/Projects/.NET/MediHarbor/MediHarbor/Views/_ViewImports.cshtml]

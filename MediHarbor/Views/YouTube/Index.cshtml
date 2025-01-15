@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "YouTube Video Search";
+}
+
+<h2>YouTube Video Search</h2>
+
+<form method="post" action="@Url.Action("Search", "YouTube")">
+    <label for="keyword">Search Keyword:</label>
+    <input type="text" id="keyword" name="keyword" required />
+    <button type="submit">Search</button>
+</form>
+
+@if (ViewBag.Videos != null && ViewBag.Videos.Count > 0)
+{
+    <h3>Search Results:</h3>
+    <h4>Videos:</h4>
+    <ul>
+        @foreach (var video in ViewBag.Videos)
+        {
+            <li>
+                <div>
+                    
+                    <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/@video.Id"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <br />
+                
+                <a href="https://www.youtube.com/watch?v=@video.Id" target="_blank">
+                    @video.Title
+                </a>
+            </li>
+        }
+    </ul>
+
+    <h4>Channels:</h4>
+    <ul>
+        @foreach (var channel in ViewBag.Channels)
+        {
+            <li>
+                <a href="https://www.youtube.com/channel/@channel.Id" target="_blank">
+                    @channel.Title
+                </a>
+            </li>
+        }
+    </ul>
+
+    <h4>Playlists:</h4>
+    <ul>
+        @foreach (var playlist in ViewBag.Playlists)
+        {
+            <li>
+                <a href="https://www.youtube.com/playlist?list=@playlist.Id" target="_blank">
+                    @playlist.Title
+                </a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No results found.</p>
+}

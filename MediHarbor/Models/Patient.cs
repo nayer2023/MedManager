@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
@@ -30,9 +31,14 @@ namespace MediHarbor.Models
         [Display(Name = "Address")]
         public string Address { get; set; }
 
+        // Foreign key to link with IdentityUser
+        [Required]
         [ForeignKey("IdentityUser")]
-        public required string UserId { get; set; }
-        public required IdentityUser User { get; set; }
+        public string UserId { get; set; }  // The user ID of the logged-in user (from Identity)
+
+        public IdentityUser User { get; set; }  // Navigation property to the IdentityUser table
+
+        // Navigation property to appointments associated with the patient
         public ICollection<Appointment> Appointments { get; set; }
     }
 }

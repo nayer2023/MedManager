@@ -62,7 +62,7 @@
 
         <!-- Make an Appointment Section -->
         <div class="col-md-5">
-            <a asp-controller="Doctor" asp-action="FindAppointment" class="text-decoration-none">
+            <a asp-controller="Appointment" asp-action="Create" class="text-decoration-none">
                 <div class="card border-primary shadow-sm p-2">
                     <div class="card-body">
                         <h4 class="text-primary">Make an Appointment</h4>
@@ -86,8 +86,9 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/Vac.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Vaccination for Flu</a>
+                                <a href="@Url.Action("Vaccination", "Home")" class="text-primary text-decoration-none">Vaccination for Flu</a>
                             </h5>
+
                             <p class="text-justify text-primary">Exploring the benefits, effectiveness, and importance of flu vaccination for public health protection.</p>
                         </div>
                     </div>
@@ -95,7 +96,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/Nerv.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Neuroscience</a>
+                                <a href="@Url.Action("Neuroscience", "Home")" class="text-primary text-decoration-none">Neuroscience</a>
                             </h5>
                             <p class="text-justify text-primary">Exploring brain functions, neural pathways, and advances in neuroscience research and treatment.</p>
                         </div>
@@ -104,7 +105,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/mental.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Mental Health</a>
+                                <a href="@Url.Action("MentalHealth","Home")" class="text-primary text-decoration-none">Mental Health</a>
                             </h5>
                             <p class="text-justify text-primary">Discussing mental health challenges, treatments, and societal impact on well-being and care.</p>
                         </div>
@@ -113,7 +114,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/pill.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Pills Price</a>
+                                <a asp-controller="Home" asp-action="Pills" class="text-primary text-decoration-none">Pills Price</a>
                             </h5>
                             <p class="text-justify text-primary">Examining factors influencing pill pricing, affordability, and the economics of pharmaceutical drugs.</p>
                         </div>
@@ -128,7 +129,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/robot.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Robots in Medicine</a>
+                                <a asp-controller="Home" asp-action="RobatsInMed" class="text-primary text-decoration-none">Robots in Medicine</a>
                             </h5>
                             <p class="text-justify text-primary">Discussing the role of robotics in the medical field and how it is revolutionizing surgeries and diagnostics.</p>
                         </div>
@@ -137,7 +138,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/AIM.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">AI in Neuroscience</a>
+                                <a asp-controller="Home" asp-action="AINeuro" class="text-primary text-decoration-none">AI in Neuroscience</a>
                             </h5>
                             <p class="text-justify text-primary">Exploring how artificial intelligence is revolutionizing neuroscience research and brain analysis.</p>
                         </div>
@@ -146,7 +147,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/Rob1.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Robotic Surgery</a>
+                                <a href="@Url.Action("RobaticSurgery", "Home")" class="text-primary text-decoration-none">Robotic Surgery</a>
                             </h5>
                             <p class="text-justify text-primary">Examining the integration of robotic surgery in healthcare and its impact on patient outcomes.</p>
                         </div>
@@ -155,7 +156,7 @@
                         <div class="p-3 border rounded shadow-sm">
                             <img src="~/img/MHA.jpg" asp-append-version="true" class="img-fluid rounded">
                             <h5 class="mt-2">
-                                <a href="#" class="text-primary text-decoration-none">Mental Health Access</a>
+                                <a asp-controller="Home" asp-action="MentalHealth" class="text-primary text-decoration-none">Mental Health Access</a>
                             </h5>
                             <p class="text-justify text-primary">Discussing the challenges of accessing affordable mental health care and potential solutions.</p>
                         </div>
@@ -172,7 +173,10 @@
             <span class="carousel-control-next-icon custom-arrow"></span>
         </button>
     </div>
+    
 </div>
+
+
 
 <!-- Custom CSS for Dark Carousel Arrows -->
 <style>

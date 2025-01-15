@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+        <p>Welcome, @User.Identity.Name!</p>
+        <a asp-controller="Appointment" asp-action="Create" class="btn btn-success">Book an Appointment</a>
+}
+else
+{
+        <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Login to Book Appointment</a>
+}
