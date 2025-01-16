@@ -21,6 +21,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using MediHarbor.Constants;
 
 namespace MediHarbor.Areas.Identity.Pages.Account
 {
@@ -187,7 +188,7 @@ namespace MediHarbor.Areas.Identity.Pages.Account
 
                 smtpClient.EnableSsl = true;
                 smtpClient.UseDefaultCredentials = false;
-                smtpClient.Credentials = new NetworkCredential("vrichvri@gmail.com", "tysu wowe jxop vczj");
+                smtpClient.Credentials = new NetworkCredential("vrichvri@gmail.com", Constant.Password);
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtpClient.Send(message);
                 return true;

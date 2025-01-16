@@ -1,13 +1,14 @@
 ﻿using Google.Apis.Services;
 using Google.Apis.YouTube.v3;
 using Microsoft.AspNetCore.Mvc;
+using MediHarbor.Constants;
 
 namespace MediHarbor.Controllers
 {
    
     public class YouTubeController : Controller
     {
-        private static readonly string ApiKey = "AIzaSyBXevoeDQxHY0SbEjAYvyXBFS9W8pIU8m8"; 
+        private static readonly string ApiKey = Constant.ApiKey; 
 
         public ActionResult Index()
         {
