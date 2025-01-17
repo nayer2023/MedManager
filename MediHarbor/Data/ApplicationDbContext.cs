@@ -32,7 +32,7 @@ namespace MediHarbor.Data
                 .Property(s => s.Price)
                 .HasColumnType("decimal(18,2)");
 
-            // Configure Appointment relationships with Doctor and Patient
+            
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Patient)
                 .WithMany(p => p.Appointments)

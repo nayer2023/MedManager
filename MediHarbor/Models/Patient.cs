@@ -34,11 +34,11 @@ namespace MediHarbor.Models
         // Foreign key to link with IdentityUser
         [Required]
         [ForeignKey("IdentityUser")]
-        public string UserId { get; set; }  // The user ID of the logged-in user (from Identity)
+        public string UserId { get; set; }  
 
-        public IdentityUser User { get; set; }  // Navigation property to the IdentityUser table
+        public IdentityUser User { get; set; }  
 
-        // Navigation property to appointments associated with the patient
+       
         public ICollection<Appointment> Appointments { get; set; }
     }
 }

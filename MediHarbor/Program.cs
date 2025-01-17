@@ -54,7 +54,7 @@ app.UseAuthorization();
 using (var scope = app.Services.CreateScope())
 {
     var seeder = scope.ServiceProvider.GetRequiredService<DatabaseSeeder>();
-    await seeder.SeedDataAsync();  // Make sure to call async with `await`
+    await seeder.SeedDataAsync();  
 }
 
 

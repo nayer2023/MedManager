@@ -18,9 +18,9 @@ namespace MediHarbor.Models
         public DateTime? LastModified { get; set; }
 
         [Display(Name = "Category")]
-        public string Category { get; set; } // Optional for categorizing texts, like "Announcement" or "Reminder"
+        public string Category { get; set; } 
 
-        // Link texts to a manager if needed for permission control
+       
         public string ManagerId { get; set; }
     }
 }

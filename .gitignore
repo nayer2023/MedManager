@@ -1,8 +1,8 @@
-# Prevent sensitive files from being pushed
+
 MediHarbor/Constants/Constant.cs
 MediHarbor/appsettings.json
 
-# Exclude build artifacts and user-specific files
+
 bin/
 obj/
 .vs/

@@ -34,7 +34,7 @@ namespace MediHarbor.Models
         [Display(Name = "Description")]
         public string Description { get; set; }
 
-        // New: Link scans to specific managers
+        
         public string ManagerId { get; set; }
     }
 }

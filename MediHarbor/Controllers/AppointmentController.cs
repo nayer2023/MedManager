@@ -11,7 +11,7 @@ using MediHarbor.Data;
 
 namespace MediHarbor.Controllers
 {
-    [Authorize]  // Ensure the user is logged in before they can book an appointment
+    [Authorize]  
     public class AppointmentController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -27,8 +27,8 @@ namespace MediHarbor.Controllers
         [HttpGet]
         public async Task<IActionResult> Create()
         {
-            var doctors = await _context.Doctors.ToListAsync();  // Get all doctors
-            ViewBag.Doctors = doctors;  // Send doctors to the view
+            var doctors = await _context.Doctors.ToListAsync();  
+            ViewBag.Doctors = doctors;  
             return View();
         }
 
@@ -41,7 +41,7 @@ namespace MediHarbor.Controllers
                 return RedirectToAction("Login", "Account");  // Redirect to login if not authenticated
             }
 
-            var userId = _userManager.GetUserId(User);  // Get the logged-in user ID
+            var userId = _userManager.GetUserId(User);  
             var patient = await _context.Patients.FirstOrDefaultAsync(p => p.UserId == userId);  // Get the patient's record
 
             if (patient == null)
@@ -63,12 +63,12 @@ namespace MediHarbor.Controllers
                     CreatedOn = DateTime.Now
                 };
 
-                _context.Appointments.Add(appointment);  // Add appointment to database
-                await _context.SaveChangesAsync();  // Save changes
-                return RedirectToAction("Index", "Home");  // Redirect back to the homepage after success
+                _context.Appointments.Add(appointment); 
+                await _context.SaveChangesAsync();  
+                return RedirectToAction("Index", "Home");  
             }
 
-            return View(model);  // Return the form with validation errors if any
+            return View(model);  
         }
     }
 }
